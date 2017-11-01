@@ -1,3 +1,10 @@
+package singleton;
+
+import singleton.ClassLoadSingleton;
+import singleton.Singleton;
+import singleton.SynchronizedBlockSingleton;
+import singleton.SynchronizedMethodSingleton;
+
 import java.util.Collections;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -5,14 +12,15 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
+public class Test {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		getMultipleTimesInstancesOfSynchronizedBlockSingletonAndPrintResult(100);
-        getMultipleTimesInstancesOfSynchronizedMethodSingletonAndPrintResult(100);
-        getMultipleTimesInstancesOfClassLoadSingletonAndPrintResult(100);
         getMultipleTimesInstancesOfSingletonAndPrintResult(100);
+        getMultipleTimesInstancesOfSingletonAndPrintResult(10000);
+        getMultipleTimesInstancesOfSynchronizedBlockSingletonAndPrintResult(10000);
+        getMultipleTimesInstancesOfSynchronizedMethodSingletonAndPrintResult(10000);
+        getMultipleTimesInstancesOfClassLoadSingletonAndPrintResult(10000);
 
 	}
 

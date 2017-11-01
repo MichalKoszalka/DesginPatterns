@@ -1,3 +1,5 @@
+package singleton;
+
 public class SynchronizedMethodSingleton {
 
 	private static SynchronizedMethodSingleton instance;

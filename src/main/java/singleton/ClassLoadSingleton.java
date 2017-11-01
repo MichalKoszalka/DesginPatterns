@@ -1,3 +1,5 @@
+package singleton;
+
 public class ClassLoadSingleton {
 
     private static ClassLoadSingleton instance = new ClassLoadSingleton();
