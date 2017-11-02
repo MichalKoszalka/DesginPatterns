@@ -2,7 +2,7 @@ package factory.simple;
 
 public class Ford {
 
-    protected static final String brand = "Ford";
+    protected static final String brand = "Car";
     protected String model;
     protected BodyType bodyType;
 

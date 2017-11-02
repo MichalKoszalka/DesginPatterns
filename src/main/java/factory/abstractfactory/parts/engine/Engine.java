@@ -1,4 +1,7 @@
 package factory.abstractfactory.parts.engine;
 
-public class Engine {
+public interface Engine {
+
+	public String toString();
+
 }
