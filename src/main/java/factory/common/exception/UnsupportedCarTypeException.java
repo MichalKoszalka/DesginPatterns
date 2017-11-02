@@ -1,4 +1,4 @@
-package factory.simple;
+package factory.common.exception;
 
 public class UnsupportedCarTypeException extends IllegalArgumentException {
 

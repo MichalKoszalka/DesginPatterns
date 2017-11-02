@@ -4,10 +4,6 @@ import factory.abstractfactory.car.Car;
 import factory.abstractfactory.showroom.CityCarShowRoom;
 import factory.abstractfactory.showroom.MuscleCarShowRoom;
 import factory.abstractfactory.showroom.OffRoadCarShowRoom;
-import factory.simple.Ford;
-import factory.simple.FordShowRoom;
-import factory.simple.SimpleFordFactory;
-import factory.simple.UnsupportedCarTypeException;
 
 public class Test {
 

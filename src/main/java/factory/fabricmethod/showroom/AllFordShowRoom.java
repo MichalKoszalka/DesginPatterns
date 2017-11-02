@@ -7,7 +7,7 @@ import factory.fabricmethod.car.oil.OilFordCMax;
 import factory.fabricmethod.car.oil.OilFordFiesta;
 import factory.fabricmethod.car.oil.OilFordMustang;
 import factory.simple.Ford;
-import factory.simple.UnsupportedCarTypeException;
+import factory.common.exception.UnsupportedCarTypeException;
 
 public class AllFordShowRoom {
 

@@ -3,9 +3,7 @@ package factory.fabricmethod;
 import factory.fabricmethod.showroom.GasolineFordShowRoom;
 import factory.fabricmethod.showroom.OilFordShowRoom;
 import factory.simple.Ford;
-import factory.simple.FordShowRoom;
-import factory.simple.SimpleFordFactory;
-import factory.simple.UnsupportedCarTypeException;
+import factory.common.exception.UnsupportedCarTypeException;
 
 public class Test {
 

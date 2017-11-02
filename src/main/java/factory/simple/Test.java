@@ -1,5 +1,7 @@
 package factory.simple;
 
+import factory.common.exception.UnsupportedCarTypeException;
+
 public class Test {
 
     public static void main(String[] args) {

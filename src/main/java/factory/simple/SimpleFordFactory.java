@@ -1,5 +1,7 @@
 package factory.simple;
 
+import factory.common.exception.UnsupportedCarTypeException;
+
 public class SimpleFordFactory {
 
     public Ford createFord(String type) {
