@@ -1,4 +1,7 @@
 package factory.abstractfactory.parts.body;
 
-public class Body {
+public interface Body {
+
+	public String toString();
+
 }

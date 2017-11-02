@@ -1,4 +1,7 @@
 package factory.abstractfactory.parts.drive;
 
-public class Drive {
+public interface Drive {
+
+	public String toString();
+
 }
