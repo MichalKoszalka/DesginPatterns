@@ -1,10 +1,10 @@
 package factory.fabricmethod.showroom;
 
+import factory.common.exception.UnsupportedCarTypeException;
 import factory.fabricmethod.car.gasoline.GasolineFordCMax;
 import factory.fabricmethod.car.gasoline.GasolineFordFiesta;
 import factory.fabricmethod.car.gasoline.GasolineFordMustang;
-import factory.simple.*;
-import factory.common.exception.UnsupportedCarTypeException;
+import factory.simple.Ford;
 
 public class GasolineFordShowRoom extends FordShowRoom {
 

@@ -10,7 +10,7 @@ import factory.abstractfactory.parts.engine.ElectricEngine;
 import factory.abstractfactory.parts.engine.Engine;
 import factory.abstractfactory.parts.turbocharger.TurboCharger;
 
-public class CityCarPartsFactory implements CarPartsFactory {
+public class CityCarPartsFactory implements CarPartsAbstractFactory {
 
 	@Override
 	public Engine createEngine() {

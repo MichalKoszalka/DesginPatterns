@@ -11,7 +11,7 @@ import factory.abstractfactory.parts.engine.GasolineEngine;
 import factory.abstractfactory.parts.turbocharger.TurboCharger;
 import factory.abstractfactory.parts.turbocharger.TwinTurboCharger;
 
-public class MuscleCarPartsFactory implements CarPartsFactory {
+public class MuscleCarPartsFactory implements CarPartsAbstractFactory {
 
 	@Override
 	public Engine createEngine() {

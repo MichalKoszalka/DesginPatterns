@@ -1,10 +1,10 @@
 package factory.fabricmethod.showroom;
 
+import factory.common.exception.UnsupportedCarTypeException;
 import factory.fabricmethod.car.oil.OilFordCMax;
 import factory.fabricmethod.car.oil.OilFordFiesta;
 import factory.fabricmethod.car.oil.OilFordMustang;
 import factory.simple.Ford;
-import factory.common.exception.UnsupportedCarTypeException;
 
 public class OilFordShowRoom extends FordShowRoom {
 

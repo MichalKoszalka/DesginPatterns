@@ -1,5 +1,6 @@
 package factory.fabricmethod.showroom;
 
+import factory.common.exception.UnsupportedCarTypeException;
 import factory.fabricmethod.car.gasoline.GasolineFordCMax;
 import factory.fabricmethod.car.gasoline.GasolineFordFiesta;
 import factory.fabricmethod.car.gasoline.GasolineFordMustang;
@@ -7,7 +8,6 @@ import factory.fabricmethod.car.oil.OilFordCMax;
 import factory.fabricmethod.car.oil.OilFordFiesta;
 import factory.fabricmethod.car.oil.OilFordMustang;
 import factory.simple.Ford;
-import factory.common.exception.UnsupportedCarTypeException;
 
 public class AllFordShowRoom {
 

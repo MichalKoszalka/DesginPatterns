@@ -1,9 +1,9 @@
 package factory.fabricmethod;
 
+import factory.common.exception.UnsupportedCarTypeException;
 import factory.fabricmethod.showroom.GasolineFordShowRoom;
 import factory.fabricmethod.showroom.OilFordShowRoom;
 import factory.simple.Ford;
-import factory.common.exception.UnsupportedCarTypeException;
 
 public class Test {
 

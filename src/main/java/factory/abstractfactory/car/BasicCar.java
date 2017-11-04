@@ -1,12 +1,12 @@
 package factory.abstractfactory.car;
 
-import factory.abstractfactory.partsfactory.CarPartsFactory;
+import factory.abstractfactory.partsfactory.CarPartsAbstractFactory;
 
 public class BasicCar extends Car {
 
-	CarPartsFactory carPartsFactory;
+	CarPartsAbstractFactory carPartsFactory;
 
-	public BasicCar(CarPartsFactory carPartsFactory) {
+	public BasicCar(CarPartsAbstractFactory carPartsFactory) {
 		this.carPartsFactory = carPartsFactory;
 	}
 

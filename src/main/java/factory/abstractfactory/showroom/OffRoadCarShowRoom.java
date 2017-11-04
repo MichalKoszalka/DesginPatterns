@@ -4,14 +4,14 @@ import factory.abstractfactory.car.BasicCar;
 import factory.abstractfactory.car.Car;
 import factory.abstractfactory.car.EcoCar;
 import factory.abstractfactory.car.SportsCar;
-import factory.abstractfactory.partsfactory.CarPartsFactory;
+import factory.abstractfactory.partsfactory.CarPartsAbstractFactory;
 import factory.abstractfactory.partsfactory.OffRoadCarPartsFactory;
 
 public class OffRoadCarShowRoom extends ShowRoom{
 
 	protected Car createCar(String item) {
 		Car car = null;
-		CarPartsFactory carPartsFactory =
+		CarPartsAbstractFactory carPartsFactory =
 				new OffRoadCarPartsFactory();
 
 		if (item.equals("eco")) {
