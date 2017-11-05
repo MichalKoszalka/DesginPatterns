@@ -1,7 +1,12 @@
 package factory.abstractfactory;
 
 import factory.abstractfactory.car.Car;
+import factory.abstractfactory.partsfactory.CarPartsAbstractFactory;
+import factory.abstractfactory.partsfactory.CityCarPartsFactory;
+import factory.abstractfactory.partsfactory.MuscleCarPartsFactory;
+import factory.abstractfactory.partsfactory.OffRoadCarPartsFactory;
 import factory.abstractfactory.showroom.CityCarShowRoom;
+import factory.abstractfactory.showroom.DependantShowRoom;
 import factory.abstractfactory.showroom.MuscleCarShowRoom;
 import factory.abstractfactory.showroom.OffRoadCarShowRoom;
 

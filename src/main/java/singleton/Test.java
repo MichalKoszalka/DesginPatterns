@@ -11,16 +11,16 @@ public class Test {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		getMultipleTimesInstancesOfSingletonAndPrintResult(10000000);
-		getMultipleTimesInstancesOfSynchronizedBlockSingletonAndPrintResult(10000000);
-		getMultipleTimesInstancesOfSynchronizedMethodSingletonAndPrintResult(10000000);
-		getMultipleTimesInstancesOfClassLoadSingletonAndPrintResult(10000000);
+		getMultipleTimesInDifferentThreadsInstancesOfSingletonAndPrintResult(1000);
+		getMultipleTimesInDifferentThreadsInstancesOfSynchronizedBlockSingletonAndPrintResult(1000);
+		getMultipleTimesInstancesInDifferentThreadsOfClassLoadSingletonAndPrintResult(1000);
+		getMultipleTimesInstancesInDifferentThreadsOfSynchronizedMethodSingletonAndPrintResult(1000);
 		System.out.println("");
 		System.out.println("");
-		getMultipleTimesInDifferentThreadsInstancesOfSingletonAndPrintResult(100);
-		getMultipleTimesInDifferentThreadsInstancesOfSynchronizedBlockSingletonAndPrintResult(100);
-		getMultipleTimesInstancesInDifferentThreadsOfSynchronizedMethodSingletonAndPrintResult(100);
-		getMultipleTimesInstancesInDifferentThreadsOfClassLoadSingletonAndPrintResult(100);
+		getMultipleTimesInstancesOfClassLoadSingletonAndPrintResult(1000);
+		getMultipleTimesInstancesOfSingletonAndPrintResult(1000);
+		getMultipleTimesInstancesOfSynchronizedBlockSingletonAndPrintResult(1000);
+		getMultipleTimesInstancesOfSynchronizedMethodSingletonAndPrintResult(1000);
 
 	}
 
