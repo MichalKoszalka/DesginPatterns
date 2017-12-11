@@ -1,4 +1,4 @@
-package builder.common;
+package builder.simple.common;
 
 public enum FuelType {
     GASOLINE, OIL;
